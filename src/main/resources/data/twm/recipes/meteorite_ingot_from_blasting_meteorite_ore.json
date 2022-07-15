@@ -4,7 +4,7 @@
   "experience": 1.0,
   "group": "meteorite_ingot",
   "ingredient": {
-    "item": "twm:raw_meteorite"
+    "item": "twm:meteorite_ore"
   },
   "result": "twm:meteorite_ingot"
 }

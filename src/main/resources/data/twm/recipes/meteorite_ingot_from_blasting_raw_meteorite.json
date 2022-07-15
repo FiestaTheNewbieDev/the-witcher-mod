@@ -2,9 +2,9 @@
   "type": "minecraft:blasting",
   "cookingtime": 100,
   "experience": 1.0,
-  "group": "silver_ingot",
+  "group": "meteorite_ingot",
   "ingredient": {
-    "item": "twm:raw_silver"
+    "item": "twm:raw_meteorite"
   },
-  "result": "twm:silver_ingot"
+  "result": "twm:meteorite_ingot"
 }

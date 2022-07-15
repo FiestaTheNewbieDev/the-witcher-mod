@@ -1,8 +1,12 @@
 {
     "itemGroup.twm_tab": "The Witcher Mod",
+    "block.twm.silver_ore": "Minerai d'argent",
     "item.twm.raw_silver": "Argent brut",
     "item.twm.silver_ingot": "Lingot d'argent",
-    "item.twm.silver_sword": "Épée en argent",
-    "block.twm.silver_ore": "Minerai d'argent",
-    "item.twm.handle": "Manche"
+    "item.twm.meteorite_ore": "Minerai de météorite",
+    "item.twm.raw_meteorite": "Météorite brute",
+    "item.twm.meteorite_ingot": "Lingot de météorite",
+    "item.twm.meteorite_silver_ingot": "Lingot d'argent de météorite",
+    "item.twm.handle": "Manche",
+    "item.twm.silver_sword": "Épée en argent"
 }

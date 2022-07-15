@@ -1,8 +1,12 @@
 {
     "itemGroup.twm_tab": "The Witcher Mod",
+    "block.twm.silver_ore": "Silver Ore",
     "item.twm.raw_silver": "Raw Silver",
     "item.twm.silver_ingot": "Silver Ingot",
-    "item.twm.silver_sword": "Silver Sword",
-    "block.twm.silver_ore": "Silver Ore",
-    "item.twm.handle": "Handle"
+    "item.twm.meteorite_ore": "Meteorite Ore",
+    "item.twm.raw_meteorite": "Raw Meteorite",
+    "item.twm.meteorite_ingot": "Meteorite Ingot",
+    "item.twm.meteorite_silver_ingot": "Meteorite Silver Ingot",
+    "item.twm.handle": "Handle",
+    "item.twm.silver_sword": "Silver Sword"
 }
