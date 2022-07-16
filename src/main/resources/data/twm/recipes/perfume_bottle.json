@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SL",
+        "B "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "B": {
+            "item": "minecraft:glass_bottle"
+        }
+    },
+    "result": {
+        "item": "twm:perfume_bottle",
+        "count": 1
+    }
+}

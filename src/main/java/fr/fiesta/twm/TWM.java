@@ -1,7 +1,7 @@
 package fr.fiesta.twm;
 
-import fr.fiesta.twm.init.ModBlocks;
-import fr.fiesta.twm.init.ModItems;
+import fr.fiesta.twm.init.BlockInit;
+import fr.fiesta.twm.init.ItemInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -18,8 +18,8 @@ public class TWM {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModItems.ITEMS.register(bus);
-        ModBlocks.BLOCKS.register(bus);
+        ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
 
     }
 

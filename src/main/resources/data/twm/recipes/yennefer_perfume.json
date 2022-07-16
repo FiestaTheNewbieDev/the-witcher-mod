@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lilac"
+    },
+    {
+      "item": "twm:gooseberries"
+    },
+    {
+      "item": "twm:perfume_bottle"
+    }
+  ],
+  "result": {
+    "item": "twm:yennefer_perfume",
+    "count": 1
+  }
+}
