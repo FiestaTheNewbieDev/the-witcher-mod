@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "twm:silver_ingot"
+            "item": "minecraft:coal"
         },
         {
-            "item": "twm:meteorite_ingot"
+            "item": "minecraft:iron_ingot"
         }
     ],
     "result": {
-        "item": "twm:meteorite_silver_ingot",
+        "item": "twm:steel_ingot",
         "count": 1
     }
 }

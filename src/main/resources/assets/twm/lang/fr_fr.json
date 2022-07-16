@@ -1,15 +1,19 @@
 {
-    "itemGroup.twm_tab": "The Witcher Mod",
     "block.twm.silver_ore": "Minerai d'argent",
-    "item.twm.raw_silver": "Argent brut",
-    "item.twm.silver_ingot": "Lingot d'argent",
-    "item.twm.meteorite_ore": "Minerai de météorite",
-    "item.twm.raw_meteorite": "Météorite brute",
+    "block.twm.meteorite_ore": "Minerai de météorite",
+    "item.twm.gooseberries": "Groseilles à maquereau",
+    "item.twm.handle": "Manche",
     "item.twm.meteorite_ingot": "Lingot de météorite",
     "item.twm.meteorite_silver_ingot": "Lingot d'argent de météorite",
-    "item.twm.handle": "Manche",
     "item.twm.perfume_bottle": "Flacon de parfum",
+    "item.twm.raw_meteorite": "Météorite brute",
+    "item.twm.raw_silver": "Argent brut",
+    "item.twm.silver_ingot": "Lingot d'argent",
+    "item.twm.silver_sword": "Épée en argent",
+    "item.twm.steel_ingot": "Lingot d'acier",
+    "item.twm.steel_sword": "Épée en acier",
     "item.twm.yennefer_perfume": "Parfum de Yennefer de Vengerberg",
-    "item.twm.gooseberries": "Groseilles à maquereau",
-    "item.twm.silver_sword": "Épée en argent"
+    "tooltip.twm.silver_sword.desc": "Inflige plus de dégâts aux monstres",
+    "tooltip.twm.steel_sword.desc": "Inflige plus de dégâts à ce qui n'est pas un monstre",
+    "tooltip.twm.yennefer_perfume.desc": "Un parfum de lilas et de groseilles à maquereau"
 }

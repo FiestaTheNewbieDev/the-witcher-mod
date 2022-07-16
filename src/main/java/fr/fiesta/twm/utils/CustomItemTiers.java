@@ -5,7 +5,8 @@ import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
 public enum CustomItemTiers implements IItemTier {
-    SILVER(2, 32, 6.0F, 2.0F, 14, null);
+    STEEL(2, 1561, 6.0F, 2.0F, 22, null),
+    SILVER(2, 32, 6.0F, 2.0F, 22, null);
 
     private final int harvestLevel;
     private final int maxUses;

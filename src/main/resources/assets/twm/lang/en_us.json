@@ -1,15 +1,20 @@
 {
-    "itemGroup.twm_tab": "The Witcher Mod",
     "block.twm.silver_ore": "Silver Ore",
-    "item.twm.raw_silver": "Raw Silver",
-    "item.twm.silver_ingot": "Silver Ingot",
-    "item.twm.meteorite_ore": "Meteorite Ore",
-    "item.twm.raw_meteorite": "Raw Meteorite",
+    "block.twm.meteorite_ore": "Meteorite Ore",
+    "item.twm.gooseberries": "Gooseberries",
+    "item.twm.handle": "Handle",
     "item.twm.meteorite_ingot": "Meteorite Ingot",
     "item.twm.meteorite_silver_ingot": "Meteorite Silver Ingot",
-    "item.twm.handle": "Handle",
     "item.twm.perfume_bottle": "Perfume Bottle",
+    "item.twm.raw_meteorite": "Raw Meteorite",
+    "item.twm.raw_silver": "Raw Silver",
+    "item.twm.silver_ingot": "Silver Ingot",
+    "item.twm.silver_sword": "Silver Sword",
+    "item.twm.steel_ingot": "Steel Ingot",
+    "item.twm.steel_sword": "Steel Sword",
     "item.twm.yennefer_perfume": "Yennefer of Vengerberg's Perfume",
-    "item.twm.gooseberries": "Gooseberries",
-    "item.twm.silver_sword": "Silver Sword"
+    "itemGroup.twm_tab": "The Witcher Mod",
+    "tooltip.twm.silver_sword.desc": "Deals more damage to monsters",
+    "tooltip.twm.steel_sword.desc": "Deals more damage to non-monsters",
+    "tooltip.twm.yennefer_perfume.desc": "It smell lilac and gooseberries"
 }
