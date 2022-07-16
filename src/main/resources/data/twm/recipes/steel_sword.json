@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "i",
+    "h"
+  ],
+  "key": {
+    "i": {
+      "item": "twm:silver_ingot"
+    },
+    "h": {
+      "item": "twm:handle"
+    }
+  },
+  "result": {
+    "item": "twm:silver_sword",
+    "count": 1
+  }
+}
