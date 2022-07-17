@@ -1,36 +1,39 @@
 package fr.fiesta.twm.common.items;
 
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
-import net.minecraft.util.DamageSource;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.text.TranslationTextComponent;
-import net.minecraft.world.World;
-
-import javax.annotation.Nullable;
+import fr.fiesta.twm.utils.CustomTags;
+import net.minecraft.core.Registry;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.Level;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import java.util.List;
 
 public class SteelSwordItem extends SwordItem {
 
-    public SteelSwordItem(IItemTier tier, int attackDamageIn, float attackSpeedIn, Item.Properties p_i48460_4_) {
+    public SteelSwordItem(Tier tier, int attackDamageIn, float attackSpeedIn, Properties p_i48460_4_) {
         super(tier, attackDamageIn, attackSpeedIn, p_i48460_4_);
     }
 
-    public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
-        tooltip.add(new TranslationTextComponent("tooltip.twm.steel_sword.desc"));
-        super.addInformation(stack, worldIn, tooltip, flagIn);
+    @Override
+    @OnlyIn(Dist.CLIENT)
+    public void appendHoverText(ItemStack item, Level level, List<Component> tooltip, TooltipFlag flag) {
+        tooltip.add(new TranslatableComponent("tooltip.twm.steel_sword.desc"));
+        super.appendHoverText(item, level, tooltip, flag);
     }
 
     @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        if (!(target instanceof MonsterEntity)) {
-            target.attackEntityFrom(DamageSource.GENERIC, stack.getMaxDamage()/2);
+    public boolean hurtEnemy(ItemStack item, LivingEntity target, LivingEntity attacker) {
+        boolean temp = Registry.ENTITY_TYPE.getHolderOrThrow(Registry.ENTITY_TYPE.getResourceKey(target.getType()).get()).is(CustomTags.EntityTypes.MONSTERS_TAG);
+        if(!temp) {
+            target.hurt(DamageSource.GENERIC, item.getMaxDamage()/2);
         }
-        return super.hitEntity(stack, target, attacker);
+        return super.hurtEnemy(item, target, attacker);
     }
 }
