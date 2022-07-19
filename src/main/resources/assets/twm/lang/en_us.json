@@ -1,4 +1,6 @@
 {
+    "block.twm.deepslate_silver_ore": "Deepslate Silver Ore",
+    "block.twm.deepslate_meteorite_ore": "Deepslate Meteorite Ore",
     "block.twm.silver_ore": "Silver Ore",
     "block.twm.meteorite_ore": "Meteorite Ore",
     "item.twm.gooseberries": "Gooseberries",
@@ -14,7 +16,8 @@
     "item.twm.steel_sword": "Steel Sword",
     "item.twm.yennefer_perfume": "Yennefer of Vengerberg's Perfume",
     "itemGroup.twm_tab": "The Witcher Mod",
-    "tooltip.twm.silver_sword.desc": "Deals more damage to monsters",
-    "tooltip.twm.steel_sword.desc": "Deals more damage to non-monsters",
-    "tooltip.twm.yennefer_perfume.desc": "It smell lilac and gooseberries"
+    "tooltip.twm.silver_sword.desc": "§dDeals more damage to monsters§r",
+    "tooltip.twm.steel_sword.desc": "§dDeals more damage to non-monsters§r",
+    "tooltip.twm.press_shift": "Press §dSHIFT§r for more Information",
+    "tooltip.twm.yennefer_perfume.desc": "§dIt smell lilac and gooseberries§r"
 }

@@ -1,5 +1,6 @@
 package fr.fiesta.twm.common.items;
 
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.InteractionHand;
@@ -20,7 +21,11 @@ public class YenneferPerfumeItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack item, Level level, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(new TranslatableComponent("tooltip.twm.yennefer_perfume.desc"));
+        if (Screen.hasShiftDown()) {
+            tooltip.add(new TranslatableComponent("tooltip.twm.yennefer_perfume.desc"));
+        } else {
+            tooltip.add(new TranslatableComponent("tooltip.twm.press_shift"));
+        }
         super.appendHoverText(item, level, tooltip, flag);
     }
 

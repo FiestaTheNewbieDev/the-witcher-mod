@@ -1,4 +1,6 @@
 {
+    "block.twm.deepslate_silver_ore": "Minerai d'argent des abîmes",
+    "block.twm.deepslate_meteorite_ore": "Minerai de météorite des abîmes",
     "block.twm.silver_ore": "Minerai d'argent",
     "block.twm.meteorite_ore": "Minerai de météorite",
     "item.twm.gooseberries": "Groseilles à maquereau",
@@ -13,7 +15,8 @@
     "item.twm.steel_ingot": "Lingot d'acier",
     "item.twm.steel_sword": "Épée en acier",
     "item.twm.yennefer_perfume": "Parfum de Yennefer de Vengerberg",
-    "tooltip.twm.silver_sword.desc": "Inflige plus de dégâts aux monstres",
-    "tooltip.twm.steel_sword.desc": "Inflige plus de dégâts à ce qui n'est pas un monstre",
-    "tooltip.twm.yennefer_perfume.desc": "Un parfum de lilas et de groseilles à maquereau"
+    "tooltip.twm.silver_sword.desc": "§dInflige plus de dégâts aux monstres§r",
+    "tooltip.twm.steel_sword.desc": "§dInflige plus de dégâts à ce qui n'est pas un monstre§r",
+    "tooltip.twm.press_shift": "Appuyez sur §dSHIFT§r pour plus d'informations",
+    "tooltip.twm.yennefer_perfume.desc": "§dUn parfum de lilas et de groseilles à maquereau§r"
 }

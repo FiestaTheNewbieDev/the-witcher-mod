@@ -31,8 +31,10 @@
     "minecraft:wither_skeleton",
     "minecraft:zoglin",
     "minecraft:zombie",
+    "minecraft:zombie_horse",
     "minecraft:zombie_villager",
     "minecraft:ender_dragon",
-    "minecraft:wither"
+    "minecraft:wither",
+    "minecraft:giant"
   ]
 }
